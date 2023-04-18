@@ -10,7 +10,7 @@ def main():
     kk_img = pg.transform.flip(kk_img, True, False)
     kk_img2 = pg.transform.rotozoom(kk_img, 10, 1.0)
     
-
+    kk_list = [kk_img, kk_img2]
 
     tmr = 0
 
